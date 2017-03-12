@@ -1,0 +1,18 @@
+#define FirstMenu 10000
+#define IDM_ 10001
+#define IDM_OPEN 10002
+#define IDM_SAVE 10003
+#define IDM_EXIT 10005
+#define IDM_ 10004
+
+FirstMenu MENU
+BEGIN
+  POPUP "&File"
+  BEGIN
+    MENUITEM "&Open",IDM_OPEN
+    MENUITEM "&Save",IDM_SAVE
+    MENUITEM "Exit",IDM_EXIT
+  END
+  MENUITEM SEPARATOR
+END
+

@@ -1,0 +1,6 @@
+;                          DllLibrary.def 
+;------------------------------------------------------------------------------------- 
+LIBRARYLIB   DllLibrary 
+EXPORTS   _CheckCounter
+		_IncCounter
+		_DecCounter
